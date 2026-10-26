@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "stalkermod",
+  "version": "${version}",
+  "name": "The Lurker Mod",
+  "description": "A server-compatible horror mod adding a tall entity that stalks players.",
+  "authors": [
+    "Developer"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.stalkermod.StalkerMod"
+    ],
+    "client": [
+      "com.stalkermod.StalkerModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
